@@ -21,3 +21,7 @@ sudo usermod -aG docker $USER
 newgrp docker
 
 minikube start --vm-driver=docker --cni=calico
+
+$Env:AWS_ACCESS_KEY_ID="AKIAST5NSEP34EE3POXV"
+$Env:AWS_SECRET_ACCESS_KEY="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"
+$Env:AWS_DEFAULT_REGION="ap-south-1"
